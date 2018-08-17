@@ -1,7 +1,7 @@
 # 教你用 Python 来玩微信跳一跳
 ## 游戏模式
 
-> 2017 年 12 月 28 日下午，微信发布了 6.6.1 版本，加入了「小游戏」功能，并提供了官方 DEMO「跳一跳」。这是一个 2.5D 插画风格的益智游戏，玩家可以通过按压屏幕时间的长短来控制这个「小人」跳跃的距离。分数越高，那么在好友排行榜更加靠前。通过 Python 脚本自动运行，让你轻松霸榜。
+> 通过 Python 脚本自动运行。
 
 ![](https://github.com/wangshub/wechat_jump_game/blob/master/resource/image/jump.gif)
 
@@ -26,27 +26,3 @@ adb pull /sdcard/autojump.png .
 adb shell input swipe x y x y time(ms)
 ```
 
-## 使用教程
-
-- 方法 1：使用 app 进行一键操作。目前已适配 Win10 64位/macOS 平台 Android 一键操作，下载请移步 [STOP_jump](https://github.com/wangshub/wechat_jump_game/releases)
-
-- 方法 2：相关软件工具安装和使用步骤请参考 [Android 和 iOS 操作步骤](https://github.com/wangshub/wechat_jump_game/wiki/Android-%E5%92%8C-iOS-%E6%93%8D%E4%BD%9C%E6%AD%A5%E9%AA%A4)
-
-## FAQ
-
-- 详见 [Wiki-FAQ](https://github.com/wangshub/wechat_jump_game/wiki/FAQ)
-
-## 更新日志
-
-- 详见 [changelog](https://github.com/wangshub/wechat_jump_game/blob/master/changelog.md)
-
-## 开发者列表
-
-- 详见 [contributors](https://github.com/wangshub/wechat_jump_game/graphs/contributors)
-
-## QQ 交流
-
-- 314659953 (1000人 已满)
-- 176740763 (500人 已满)
-- 89213434 (2000人 已满)
-- 64389940 (2000人)
